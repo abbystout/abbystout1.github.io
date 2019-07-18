@@ -6,37 +6,20 @@ googleAnalytics = ""
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
-[permalinks]
-    post = "/:year/:month/:day/:slug/"
+name = "Creative portfolio"
+license = "MIT"
+licenselink = "https://github.com/kishaningithub/hugo-creative-portfolio-theme/blob/master/LICENSE"
+description = "Port of the creative portfolio theme"
+homepage = "https://github.com/kishaningithub/hugo-creative-portfolio-theme"
+tags = ["creative", "portfolio", "projects", "minimal", "responsive"]
+features = ["disqus", "bootstrap", "responsive", "google analytics"]
+min_version = 0.20
 
-[[menu.main]]
-    name = "About"
-    url = "/about/"
-[[menu.main]]
-    name = "GitHub"
-    url = "https://github.com/rstudio/blogdown"
-[[menu.main]]
-    name = "Instagram"
-    url = "https://www.instagram.com/abbystouttt/"
+[author]
+  name = "Kishan B"
+  homepage = "https://github.com/kishaningithub"
 
-[params]
-    description = "A website built through Hugo and blogdown."
-
-    # options for highlight.js (version, additional languages, and theme)
-    highlightjsVersion = "9.12.0"
-    highlightjsCDN = "//cdnjs.cloudflare.com/ajax/libs"
-    highlightjsLang = ["r", "yaml"]
-    highlightjsTheme = "github"
-
-    MathJaxCDN = "//cdnjs.cloudflare.com/ajax/libs"
-    MathJaxVersion = "2.7.5"
-
-    # path to the favicon, under "static"
-    favicon = "favicon.ico"
-
-    [params.logo]
-    url = "logo.png"
-    width = 50
-    height = 50
-    alt = "Logo"
-
+# If porting an existing theme
+[original]
+  name = "bootstrapious"
+  homepage = "https://bootstrapious.com/p/creative-portfolio"
