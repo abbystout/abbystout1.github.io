@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://abigailstout.netlify.com/"
 languageCode = "en-us"
 title = "Abigail Stout"
 theme = "hugo-academic"
